@@ -10,10 +10,10 @@ Author URI: http://www.ninthlink.com/
 
 class PageTemplater {
 
-		/**
+	/**
          * A Unique Identifier
          */
-		 protected $plugin_slug;
+	protected $plugin_slug;
 
         /**
          * A reference to an instance of this class.
