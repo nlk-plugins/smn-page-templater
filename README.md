@@ -13,7 +13,7 @@ Based on HarriBellThomas's https://github.com/wpexplorer/page-templater
 1. Select template option on Page edit screen
 2. Publish page
 
-### For `(blank)` templates:
+#### For `(blank)` templates:
 1. Your custom page content will appear between the top header and nav, and the bottom footer blocks
 2. CSS classes are available for styling page content
 
