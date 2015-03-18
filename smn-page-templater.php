@@ -70,7 +70,9 @@ class PageTemplater {
 
                 // Add your templates to this array.
                 $this->templates = array(
-                        'smnlegacy-onecol/smnlegacy-template.php'     => 'SMN Legacy Page',
+                        'smnlegacy-onecol/smnlegacy-template.php'     => 'SMN Legacy Page (blank)',
+                        'smnlegacy-squeeze/smnlegacy-template.php'     => 'SMN Legacy Squeeze Page 1',
+                        'smnlegacy-squeeze2/smnlegacy-template.php'     => 'SMN Legacy Squeeze Page 2',
                 );
 				
         } 

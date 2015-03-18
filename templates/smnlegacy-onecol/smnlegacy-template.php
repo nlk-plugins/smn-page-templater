@@ -27,9 +27,6 @@ require_once(__TEMPLATE__.'/smnlegacy-onecol/header.php') ;
 			?>
 
 		</div>
-
-
-
 		
 <?php
 /**
