@@ -1,0 +1,665 @@
+body{}
+
+
+.askdanabutton {
+	margin-right:-69px;
+	margin-top:-38px;
+	position:relative;
+	width:224px;
+	overflow:hidden;
+	height:35px;
+}
+.askdanabutton img {
+	position:absolute;
+}
+.askdanabutton img:hover {
+	left:-224px;
+}
+
+/* Forms */
+
+#mc_embed_signup #mc-embedded-subscribe-form {
+	font: normal 100% Arial;
+	font-size: 12px;
+}
+
+#mc-embedded-subscribe-form fieldset {
+	border-radius: 4px;
+	border:1px solid #000;
+	padding-top: .5em;
+	margin: .5em 0;
+	text-align:left;
+}
+#mc-embedded-subscribe-form legend {
+	text-transform: capitalize;
+	font-weight:bold;
+	color:#fff;
+	padding: .5em 1em;
+	border: 1px solid #000000;
+	font-size:1.2em;
+}
+.secondaryColor {
+	color: #333;
+}
+.backWhite {
+	background:#fff;
+}
+.rounded.small {
+	border-radius:4px;
+}
+#mc-embedded-subscribe-form .mc-field-group {
+	margin:1.3em 5%;
+	clear:both;
+	overflow: hidden;
+}
+#mc-embedded-subscribe-form .mc-field-group label {
+	display:block;
+	margin: .3em 0;
+	line-height: 1em;
+	font-weight: bold;
+}
+#mc-embedded-subscribe-form .mc-field-group input.email {
+	padding: 0.2em 0.3em;
+	margin-right: 1.5em;
+	width:90%;
+	float:left;
+	z-index: 999;
+}
+/* News Page and How to Regain Love */
+.marriage-topics a {
+	color:#0088CC !important;
+}
+.marriage-topics a:hover {
+	text-decoration:underline !important;
+}
+.alert {
+	color:#a61c00;
+}
+p.watch-video-blog {
+	clear:left;
+	float:left;
+	width:190px;
+	text-align:center;
+}
+
+#sidebar #text-21 .textwidget{
+	padding:10px;
+}
+.inline {
+	display:inline;
+}
+.testimonial.message {
+	padding:15px;
+	background:#f9f9f9;
+	display:block;
+	font-style:italic;
+	font-size:0.8em;
+}
+.panel.callout {
+	background:#f7f49e;
+	border:2px solid #f1ec5c;
+	overflow:hidden;
+	padding:1.25em;
+}
+.form.element {
+	display:inline-block;
+	padding:0 .9375em;
+	vertical-align:middle;
+	width:30%;
+}
+.form.element input[type=text] {
+	font-size:.875em;
+	padding:.5em;
+	height:2.3125em;
+	width:100%;
+}
+.overlay {
+	position:fixed;
+	top:0;
+	left:0;
+	height:100%;
+	width:100%;
+	background:rgba(0,0,0,0.5);
+	z-index:10;
+	display:none;
+}
+.popup {
+	position:relative;
+	top:30%;
+	width:550px;
+	padding:25px;
+	background:#fff;
+	border-radius:25px;
+}
+.popup input {
+	padding:5px;
+	margin-right:25px;
+	width:33%;
+}
+.popup * {
+	vertical-align:middle;
+}
+.button.alert {
+	background:#ff8621;
+	color:#fff;
+	border-color:#e36700;
+}
+.button.radius {
+	-webkit-border-radius:3px;
+	border-radius:3px;
+}
+input.button {
+	padding-top:.8124em;
+	padding-bottom:.75em;
+	text-shadow:inherit;
+}
+.form.element input[type=submit] {
+	-webkit-appearance:button;
+	cursor:pointer;
+}
+.button {
+	-webkit-box-shadow:0 1px 0 rgba(255,255,255,0.5) inset;
+	box-shadow:0 1px 0 rgba(255,255,255,0.5) inset;
+	-webkit-transition: background-color 300ms ease-out;
+	-moz-transition:background-color 300ms ease-out;
+	transition:background-color 300ms ease-out;
+	border-style:solid;
+	border-width:1px;
+	font-family:inherit;
+	font-weight:700;
+	line-height:1;
+	position:relative;
+	text-decoration:none;
+	text-align:center;
+	padding-right: 1.5em;
+	padding-left: 1.5em;
+	font-size: 1em;
+}
+.button.alert:hover {
+	background:#974400;
+	color:#fff;
+}
+
+/*  End News Page and How To Regain Love */
+
+.buy-now22 {
+    background:url(../images/p-learnmore.png) left top no-repeat;
+    display:block;
+    height:42px;
+    width:161px;
+    float:center;
+}
+.watch {
+    display:block;
+    background:url(http://www.strongmarriagenow.com/images/watchcourse.png) left no-repeat;
+    width:222px;
+    height:63px;
+}
+
+.watch:hover {
+    background:url(http://www.strongmarriagenow.com/images/watchcourse.png) left no-repeat;
+}   
+.borderBlack {
+	border:2px solid black;
+}
+.wp-caption.own-video {
+	font-size:11px;
+}
+.smnTestimonialBox {
+padding: 20px;
+background: #B9D3EE;
+border: 1px solid #013ADF;	
+}
+.sizeOneEm {
+	font-size:1em;
+}
+.smnDRTestimonial {
+	padding:20px;
+	background:#FC9;
+	border: 1px solid #9F4109;
+}
+img.margin-four {
+	margin: 4px;
+}
+img.margin-five {
+	margin: 5px;
+}
+div.heightLineHeight {
+	height:15px;
+	line-height:15px;
+}
+div.fb-blue-box {
+	padding:20px;
+	background: #A9B2D0;
+	border: 1px solid #3B5998;
+	color:#FFFFFF;
+}
+div.yt-red-box {
+	padding:20px;
+	background:#DF5B5C;
+	border: 1px solid #000000;
+	color:#FFFFFF;	
+}
+.margin-five-bottom {
+	margin-bottom:5px;
+}
+span.grayBg {
+	-webkit-text-size-adjust: auto;
+	-webkit-text-stroke-width: 0px;
+	background-color: rgb(255, 255, 255);
+	color: rgb(51, 51, 51);
+	display: inline !important;
+	float: none;
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', Arial, Verdana, sans-serif;
+	font-size: 12px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: normal;
+	letter-spacing: normal;
+	line-height: 18px;
+	orphans: 2;
+	text-align: left;
+	text-indent: 0px;
+	text-transform: none;
+	white-space: normal;
+	widows: 2;
+	word-spacing: 0px;
+}
+.hidden {
+	display:none;
+	visibility: hidden;
+}
+.margin-ten-bottom {
+	margin-bottom:10px;
+}
+.marginBottomFifteen {
+	margin-bottom:15px;
+}
+.floatLeftWidthFifty {
+	float:left;
+	width:50%;
+}
+.floatRightWidthFifty {
+	float:right;
+	width:50%;
+}
+.blacknostyle {
+	text-decoration: none !important;
+	color:black;
+}
+.textAlignLeft {
+	text-align:left;
+}
+
+.heightHundred {
+	height:100%;
+}
+.widthHundred {
+	width:100%;
+}
+.heightTwenty {
+	height:20px;
+}
+.heightTen {
+	height:10px;
+}
+.textAlignCenter {
+	text-align:center;
+}
+.borderGrayHeightTen {
+	border-bottom: 1px solid #CCCCCC; height: 10px;
+}
+.redText {
+	color:#993300;
+}
+.darkRedText {
+	color: #cc0000
+}
+.marginEight {
+	margin: 8px;
+}
+.underline {
+	text-decoration:underline;
+}
+.darkBlack {
+	color:#000000;
+}
+.strikeThrough {
+	text-decoration:line-through;
+}
+.borderStyleNone {
+	border-style:none;
+}
+.paddingLeftThirty {
+	padding-left:30px;
+}
+.darkerRedText {
+	color:#800000;
+}
+.darkestRed {
+	color:#b80000;
+}
+.lightRedText {
+	color:#c50000;
+}
+.brightRedText {
+	color:#ff0000;
+}
+.bloodRed {
+	color:#bb2500;
+}
+.floatLeft {
+	float:left;
+}
+.widthTwentyPerc {
+	width:20%;
+}
+.heightFifteenHundred {
+	height:1500px;
+}
+.heightThousand {
+	height:1000px;
+}
+.blueText {
+	color:#3063A5;
+}
+.floatRight {
+	float:right;
+}
+.widthTwoHundred {
+	width:200px;
+}
+.widthHundredPerc {
+	width:100%;
+}
+.widthEightyPerc {
+	width:80%;
+}
+.heightTwoThousand {
+	height:2000px;
+}
+.black {
+	color:#111111;
+}
+.marginLeftFifteen {
+	margin-left:15px;
+}
+.marginLeftTen {
+	margin-left:10px;
+}
+.marginRightTen {
+	margin-right:10px;
+}
+.clear {
+	clear:both;
+}
+.fontSizeFifteen {
+	font-size:15px;	
+}
+.widthThirtyFivePerc {
+	width:35%;
+}
+.leftFifteen {
+	left:15px;
+}
+.widthFiftyFivePerc {
+	width:55%;
+}
+.widthFortyThreePerc {
+	width:43%;
+}
+.widthSixtyPerc {
+	width:60%;
+}
+.widthFortyPerc {
+	width:40%;
+}
+.positionRelative {
+	position:relative;
+}
+.bgWhite {
+	background-color:#ffffff;
+}
+.sizeTwentyTwo {
+	font-size:22px;
+}
+/* "Marriage Success Quiz" styles */
+/* Resizing Theme, Removing Sidebar */
+.postid-5539 #sidebar { display: none; }
+.postid-5539 #maincontent { width: 960px; }
+.postid-5539 .commentswrap .hentry { display: none; }
+/* "Want to appear on the Oprah Winfrey Network?" styles */
+
+.post-9823 td.infusion-field-input-container input[type=radio] {
+	margin-right:3px;
+}
+
+.post-9823 .beta-base .preheader, .post-9823 .beta-base .header, .post-9823 .beta-base .sidebar, .post-9823 .beta-base .body, .post-9823 .beta-base .footer, .post-9823 #mainContent {
+    text-align: left;
+}
+.post-9823 .beta-base .preheader, .post-9823 .beta-base .header, .post-9823 .beta-base .body, .post-9823 .beta-base .sidebar, .post-9823 .beta-base .leftSidebar, .post-9823 .beta-base .rightSidebar, .post-9823 .beta-base .footer {
+    margin: 0;
+    padding: 0;
+    border: none;
+    white-space: normal;
+    line-height: normal;
+}
+.post-9823 .beta-base .title, .post-9823 .beta-base .subtitle, .post-9823 .beta-base .text, .post-9823 .beta-base img {
+    margin: 0;
+    padding: 0;
+    background: none;
+    border: none;
+    white-space: normal;
+    line-height: normal;
+}
+.post-9823 .beta-base .bodyContainer td.preheader{
+    padding: 10px 0;
+}
+.post-9823 .beta-base .bodyContainer td.header {
+    padding: 0;
+    height: 30px;
+}
+.post-9823 .beta-base .bodyContainer td.body, .post-9823 .beta-base .bodyContainer td.footer,
+.post-9823 .beta-base .bodyContainer td.sidebar, .post-9823 .beta-base .bodyContainer td.leftSidebar, .post-9823 .beta-base .bodyContainer td.rightSidebar {
+    padding: 20px;
+}
+.post-9823 .beta-base .bodyContainer td.header p, .post-9823 .beta-base .bodyContainer td.preheader p, .post-9823 .beta-base .bodyContainer td.body p,
+.post-9823 .beta-base .bodyContainer td.footer p, .post-9823 .beta-base .bodyContainer td.sidebar p,
+.post-9823 .beta-base .bodyContainer td.leftSidebar p, .post-9823 .beta-base .bodyContainer td.rightSidebar p {
+    margin: 0;
+    color: inherit;
+}
+.post-9823 .beta-base .bodyContainer td.header div.title, .post-9823 .beta-base .bodyContainer td.preheader div.title, .post-9823 .beta-base .bodyContainer td.body div.title,
+.post-9823 .beta-base .bodyContainer td.footer div.title, .post-9823 .beta-base .bodyContainer td.sidebar div.title,
+.post-9823 .beta-base .bodyContainer td.leftSidebar div.title, .post-9823 .beta-base .bodyContainer td.rightSidebar div.title,
+.post-9823 .beta-base .bodyContainer td.header div.subtitle, .post-9823 .beta-base .bodyContainer td.preheader div.subtitle, .post-9823 .beta-base .bodyContainer td.body div.subtitle,
+.post-9823 .beta-base .bodyContainer td.footer div.subtitle, .post-9823 .beta-base .bodyContainer td.sidebar div.subtitle,
+.post-9823 .beta-base .bodyContainer td.leftSidebar div.subtitle, .post-9823 .beta-base .bodyContainer td.rightSidebar div.subtitle,
+.post-9823 .beta-base .bodyContainer td.header div.text, .post-9823 .beta-base .bodyContainer td.preheader div.text, .post-9823 .beta-base .bodyContainer td.body div.text,
+.post-9823 .beta-base .bodyContainer td.footer div.text, .post-9823 .beta-base .bodyContainer td.sidebar div.text,
+.post-9823 .beta-base .bodyContainer td.leftSidebar div.text, .post-9823 .beta-base .bodyContainer td.rightSidebar div.text {
+    overflow: auto;
+}
+.post-9823 .beta-base .optout {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.post-9823 table.infusion-field-container {
+	width:100%;
+}
+.post-9823 td.infusion-field-input-container.inf_option_MartialStatus, .post-9823 td.infusion-field-input-container.inf_field_Phone1, .post-9823 td.infusion-field-input-container.inf_field_Email, .post-9823 td.infusion-field-input-container.inf_field_FirstName, td.infusion-field-input-container.inf_field_LastName, .post-9823 td.infusion-field-input-container.inf_custom_SpousesFirstName, .post-9823 td.infusion-field-input-container.inf_custom_SpousesLastName, .post-9823 td.infusion-field-input-container.inf_custom_SpousesEmail, .post-9823 td.infusion-field-input-container.inf_custom_Ethnicity, .post-9823 td.infusion-field-input-container.inf_option_AreBothSpousesWillingToAppearOnTheShow, .post-9823 td.infusion-field-input-container.inf_option_DoYouResideInTheUnitedStates, .post-9823 td.infusion-field-input-container.inf_option_HaveyouBeenImpactedByPhysicalInfidelity, .post-9823 td.infusion-field-input-container.inf_custom_Story {
+	width:310px;
+}
+.post-9823 div.infusion-captcha {
+    width: 220px;
+    padding: 10px;
+}
+.post-9823 div.infusion-captcha input, div.infusion-captcha select, div.infusion-captcha textarea {
+    width: 95%;
+    display: inline-block;
+    vertical-align: middle;
+}
+.post-9823 table.infusion-field-container td.infusion-field-input-container input[type='text'],
+.post-9823 table.infusion-field-container td.infusion-field-input-container input[type='password'],
+.post-9823 table.infusion-field-container td.infusion-field-input-container textarea {
+    width: 98%; /* must be 98% to make the snippet-menu line up due to border width */
+    margin: 0;
+}
+.post-9823 table.infusion-field-container td.infusion-field-input-container select {
+    width: 101%;
+    *width: 102%; /* this one for IE */
+    margin: 0;
+}
+.post-9823 table.infusion-field-container td.infusion-field-label-container {
+    padding-right: 5px;
+}
+.post-9823 td.header .image-snippet img {
+    vertical-align: bottom;
+}
+.post-9823 #webformErrors {
+    color: #990000;
+    font-size: 14px;
+}
+.post-9823 .infusion-form {
+    margin: 0;
+    height: 100%;
+}
+.post-9823 .infusion-option {
+    display: block;
+}
+.post-9823 .beta-font-a .title, .post-9823 .beta-font-a .title p {
+    font-weight:bold;
+    font-size: 20px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.post-9823 .beta-font-a .subtitle, .post-9823 .beta-font-a .subtitle p {
+    font-size:14px;
+    font-family: Georgia, "Times New Roman", Times, serif;
+}
+.post-9823 .beta-font-a .text, .post-9823 .beta-font-a .text p {
+    font-size: 12px;
+    font-family: arial,sans-serif;
+}
+.post-9823 .beta-font-a .preheader .text, .post-9823 .beta-font-a .preheader .text p {
+    font-size: 11px;
+    font-family: arial,sans-serif;
+}
+.post-9823 .beta-font-a .footer .text, .post-9823 .beta-font-a .footer .text p {
+    font-size: 10px;
+    font-family: verdana,sans-serif;
+}
+.post-9823 .beta-font-a .footer a {
+    font-size: 11px;
+    font-family: arial,sans-serif;
+}
+.post-9823 .beta-font-a .sidebar .title, .post-9823 .beta-font-a .leftSidebar .title, .post-9823 .beta-font-a .rightSidebar .title {
+    font-size: 15px;
+    font-weight: bold;
+    font-family: arial,sans-serif;
+}
+.post-9823 .beta-font-a .sidebar .subtitle, .post-9823 .beta-font-a .leftSidebar .subtitle, .post-9823 .beta-font-a .rightSidebar .subtitle {
+    font-size: 12px;
+    font-family: arial,sans-serif;
+}
+.post-9823 .infusion-field-label-container {
+    color: #000000;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+.post-9823 .infusion-field-input-container {
+    font-size: 12px;
+}
+.post-9823 .infusion-option label {
+    color: #000000;
+    font-size: 14px;
+    font-family: arial,sans-serif;
+}
+.post-9823 .custom-10 .background{
+background-color:#FFFFFF;
+}
+.post-9823 .custom-10 .body{
+background-color:#FFFFFF;
+}
+.post-9823 .custom-10 a{
+color:#a9a9a9;
+}
+.post-9823 .custom-10 .text{
+color:#4F4F4F;
+}
+.post-9823 .custom-10 .background .preheader a{
+color:#;
+}
+.post-9823 .custom-10 .background .preheader .text{
+color:#;
+}
+.post-9823 .custom-10 .title{
+color:#000000;
+}
+.post-9823 .custom-10 .header{
+background-color:#D5D5D5;
+}
+.post-9823 .custom-10 .subtitle{
+color:#666666;
+}
+.post-9823 .custom-10 .sidebar .title{
+color:#000000;
+}
+.post-9823 .custom-10 .sidebar .subtitle{
+color:#000000;
+}
+.post-9823 .custom-10 .footer{
+background-color:#D5D5D5;
+}
+.post-9823 .custom-10 .footer a{
+color:#a9a9a9;
+}
+.post-9823 .custom-10 .footer .text{
+color:#000000;
+}
+.post-9823 .custom-10 .infusion-field-label-container{
+color:#4F4F4F;
+}
+.post-9823 .custom-10 .infusion-field-label-container{
+font-size:14px;
+}
+.post-9823 .custom-10 .infusion-field-label-container{
+font-family:Arial;
+}
+.post-9823 .custom-10 .infusion-field-input{
+font-size:12px;
+}
+.post-9823 .custom-10 .infusion-checkbox-radio-label-container{
+color:#000000;
+}
+.post-9823 .custom-10 .infusion-checkbox-radio-label-container{
+font-size:14px;
+}
+.post-9823 .custom-10 .infusion-checkbox-radio-label-container{
+font-family:Arial;
+}
+.post-9823 .custom-10 .bodyContainer{
+border-style:Hidden;
+}
+.post-9823 .custom-10 .bodyContainer{
+border-width:3px;
+}
+.post-9823 .custom-10 .bodyContainer{
+border-color:#000000;
+}
+.post-9823 .infusion-field-label-container {
+text-align:Left;
+}
+.post-9823 .infusion-field-label-container {
+vertical-align:Middle;
+}
+.post-9823 .infusion-field-input-container {
+width:310px;
+}
+.post-9823 .bodyContainer {
+width:545px;
+}
+#text-17 a img {
+	margin-bottom:15px;
+	width:232px;
+	height:auto;
+}
