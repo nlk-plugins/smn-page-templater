@@ -52,7 +52,7 @@
 		<!-- header -->
 		<div id="header" class="fix">
 			<a href="<?php echo get_bloginfo('url'); ?>">
-				<img class="headerimage" src="<?php echo get_bloginfo('url'); ?>/images/smnheader05.jpg" width="727" height="64" alt="Save My Marriage System | Online Marriage Counseling Made Easy">
+				<img class="headerimage" src="<?php echo plugin_dir_url( __FILE__ ); ?>images/smnheader05.jpg" width="727" height="64" alt="Save My Marriage System | Online Marriage Counseling Made Easy">
 			</a>
 
 			<!-- iphone icons -->
@@ -61,7 +61,7 @@
 
 			<div class="toplinks">
 				<div class="askdanabutton">
-					<a href="<?php echo get_bloginfo('url'); ?>/ask-dr-dana/"><img src="<?php echo get_bloginfo('url'); ?>/images/askdana03.jpg"></a>
+					<a href="<?php echo get_bloginfo('url'); ?>/ask-dr-dana/"><img src="<?php echo plugin_dir_url( __FILE__ ); ?>images/askdana03.jpg"></a>
 				</div>
 
 
