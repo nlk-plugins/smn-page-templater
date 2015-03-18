@@ -1,10 +1,11 @@
 <?php
 /*
-Plugin Name: Page Template Plugin : 'Good To Be Bad'
-Plugin URI: http://hbt.io/
+Plugin Name: SMN Page Templater
+Plugin URI: http://www.strongmarriagenow.com/
+Description: Page Templater plugin to add legacy pages to SMN, based on HarriBellThomas's https://github.com/wpexplorer/page-templater
 Version: 1.0.1
-Author: Harri Bell-Thomas
-Author URI: http://hbt.io/
+Author: Ninthlink, Inc.
+Author URI: http://www.ninthlink.com/
 */
 
 class PageTemplater {
