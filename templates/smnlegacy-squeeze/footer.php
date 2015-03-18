@@ -9,6 +9,6 @@
 
 <?php tha_footer_after(); ?>
 <?php tha_body_bottom(); ?>
-<?php wp_footer(); ?>
+<?php //wp_footer(); ?>
 </body>
 </html>

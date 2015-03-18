@@ -1,7 +1,7 @@
 <?php
 
 /**
-* Strong Marriage Now Legacy Page Template
+* Strong Marriage Now Legacy Squeeze Page Template vers 1
 */
 
 /**
@@ -154,6 +154,6 @@ require_once(__TEMPLATE__.'/smnlegacy-squeeze/header.php') ;
  * Load the footer
  *
  */
-require_once(__TEMPLATE__.'/smnlegacy-onecol/footer.php') ;
+require_once(__TEMPLATE__.'/smnlegacy-squeeze/footer.php') ;
 
 ?>
