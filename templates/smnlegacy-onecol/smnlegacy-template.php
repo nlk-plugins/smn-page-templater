@@ -13,7 +13,7 @@ require_once(__TEMPLATE__.'/smnlegacy-onecol/header.php') ;
 ?>
 
 		<!-- content -->
-		<div id="container" class="fix ">
+		<div id="container" class="fix fboxes">
 
 			<?php
 			/* display Page content */
