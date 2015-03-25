@@ -11,8 +11,8 @@ Author URI: http://www.ninthlink.com/
 class PageTemplater {
 
 	/**
-         * A Unique Identifier
-         */
+   * A Unique Identifier
+   */
 	protected $plugin_slug;
 
         /**
@@ -71,7 +71,7 @@ class PageTemplater {
 
                 // Add your templates to this array.
                 $this->templates = array(
-                        'smnlegacy-onecol/smnlegacy-template.php'     => 'SMN Legacy Page (blank)',
+                        'smnlegacy-onecol/smnlegacy-template.php'     => 'SMN Legacy (VSL) Blank Page',
                         'smnlegacy-squeeze/smnlegacy-template.php'     => 'SMN Legacy Squeeze Page 1',
                         'smnlegacy-squeeze2/smnlegacy-template.php'     => 'SMN Legacy Squeeze Page 2',
                 );
