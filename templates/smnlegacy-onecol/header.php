@@ -18,6 +18,16 @@
 	<link rel="profile" href="http://gmpg.org/xfn/11">
 	<link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
 
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+	<script type="text/javascript" src="<?php echo plugin_dir_url( __FILE__ ); ?>js/dropdown.js"></script>
+
+	<?php tha_head_bottom(); ?>
+
+	<?php
+  if ( is_page_template('smnlegacy-onecol/smnlegacy-template.php') ) {
+    wp_head();
+  }
+  ?>
 
 	<link rel="stylesheet" type="text/css" href="<?php echo plugin_dir_url( __FILE__ ); ?>css/reset.css">
 	<link rel="stylesheet" type="text/css" href="<?php echo plugin_dir_url( __FILE__ ); ?>css/wp_core.css">
@@ -32,14 +42,7 @@
 	#page { top: 32px; position: relative; }
 	</style>
 	<?php } ?>
-
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
-	<script type="text/javascript" src="<?php echo plugin_dir_url( __FILE__ ); ?>js/dropdown.js"></script>
-
-	<?php tha_head_bottom(); ?>
-
-	<?php //wp_head(); ?>
-
+  
 </head>
 
 <body <?php body_class(); ?>>
