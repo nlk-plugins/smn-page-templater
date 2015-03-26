@@ -5,7 +5,7 @@
  */
 
 ?>
-<?php tha_footer_before(); ?>
+<?php if(function_exists('tha_footer_before')) tha_footer_before(); ?>
 <!-- footer -->
 		<div id="footer">
 			<div class="effect">
@@ -90,8 +90,8 @@
 	<p align="center">© 2010-2015 StrongMarriageNow.com | StrongMarriageNow, 2262 Carmel Valley Road, Suite D, Del Mar, CA 92014</p>
 
 </div>
-<?php tha_footer_after(); ?>
-<?php tha_body_bottom(); ?>
+<?php if(function_exists('tha_footer_after')) tha_footer_after(); ?>
+<?php if(function_exists('tha_body_bottom')) tha_body_bottom(); ?>
 <?php wp_footer(); ?>
 </body>
 </html>
