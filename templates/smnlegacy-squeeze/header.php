@@ -4,11 +4,11 @@
  *
  */
 ?><!DOCTYPE html>
-<?php tha_html_before(); ?>
+<?php if(function_exists('tha_html_before')) tha_html_before(); ?>
 <html class=" js no-touch svg inlinesvg svgclippaths no-ie8compat" <?php language_attributes(); ?>>
 <head>
 
-	<?php tha_head_top(); ?>
+	<?php if(function_exists('tha_head_top')) tha_head_top(); ?>
 
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width">
@@ -30,7 +30,7 @@
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
 	<script type="text/javascript" src="<?php echo plugin_dir_url( __FILE__ ); ?>js/dropdown.js"></script>
 
-	<?php tha_head_bottom(); ?>
+	<?php if(function_exists('tha_head_bottom')) tha_head_bottom(); ?>
 
 	<?php //wp_head(); ?>
 
@@ -38,4 +38,4 @@
 
 <body cz-shortcut-listen="true" <?php body_class(); ?>>
 
-	<?php tha_body_top(); ?>
+	<?php if(function_exists('tha_body_top')) tha_body_top(); ?>

@@ -8,7 +8,7 @@
 <html <?php language_attributes(); ?>>
 <head>
 
-	<?php tha_head_top(); ?>
+	<?php if(function_exists('tha_head_top')) tha_head_top(); ?>
 
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
