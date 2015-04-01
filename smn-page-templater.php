@@ -3,7 +3,7 @@
 Plugin Name: SMN Page Templater
 Plugin URI: http://www.strongmarriagenow.com/
 Description: Page Templater plugin to add legacy pages to SMN, based on HarriBellThomas's https://github.com/wpexplorer/page-templater
-Version: 1.0.1
+Version: 1.0.2
 Author: Ninthlink, Inc.
 Author URI: http://www.ninthlink.com/
 */
@@ -142,4 +142,20 @@ class PageTemplater {
 
 add_action( 'plugins_loaded', array( 'PageTemplater', 'get_instance' ) );
 
-?>
+/**
+ * I don't know how to do this otherwise...
+ */
+function smn_page_templater_savemarriage2form( $form_string, $form ) {
+  if ( is_page_template( 'smnlegacy-squeeze/smnlegacy-template.php' ) ) {
+    // str_replace fix html div wrappers
+    $form_string = str_replace( "<div class='gform_body form-group'><div id='gform_fields_3' class='gform_fields left_label form_sublabel_below description_below'>", '<div class="row"><div class="panel">', $form_string );
+    $form_string = str_replace( '</div></div>', '', $form_string);
+    $form_string = str_replace( "<div class='gform_footer form-group  left_label'> ", '<div class="small-12 large-4 columns">', $form_string);
+    $form_string = str_replace( '</form>', '</div></div></form>', $form_string);
+    
+    // str_replace fix submit button classes
+    $form_string = str_replace( 'btn btn-primary', 'alert medium radius', $form_string );
+  }
+  return $form_string;
+}
+add_filter( 'gform_get_form_filter', 'smn_page_templater_savemarriage2form', 99, 2 );

@@ -57,6 +57,7 @@ require_once(__TEMPLATE__.'/smnlegacy-squeeze/header.php') ;
           
           <!-- INSTANT ACCESS -->
           <h4 class="text-center">Get Instant Access To The Marriage Saving Video Series 100% FREE</h4>
+          <?php echo do_shortcode('[gravityform id="3" title="false" description="false"]'); /*?>
 		<form accept-charset="UTF-8" action="https://haveasweetlife.infusionsoft.com/app/form/process/133004d7894d4baa325ccfc451067ec9" class="infusion-form" method="POST">
 		    <input name="inf_form_xid" type="hidden" value="133004d7894d4baa325ccfc451067ec9">
 		    <input name="inf_form_name" type="hidden" value="New Lead - PPC w/Lead Source Tracking">
@@ -89,7 +90,8 @@ require_once(__TEMPLATE__.'/smnlegacy-squeeze/header.php') ;
                 </div>
               </div>
             </div>
-
+    </form>
+    */ ?>
         </div>
       </div>
       <article id="testimonial" class="row">
