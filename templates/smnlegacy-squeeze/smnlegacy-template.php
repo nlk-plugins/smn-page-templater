@@ -32,20 +32,20 @@ require_once(__TEMPLATE__.'/smnlegacy-squeeze/header.php') ;
           <table class="success-table">
             <tbody>
               <tr>
-                <td><span class="checkmark">•</span> What to do when your spouse wants out</td>
-                <td><span class="checkmark">•</span> How to handle  “I’m not in love with you.”</td>
+                <td><span class="checkmark"></span> What to do when your spouse wants out</td>
+                <td><span class="checkmark"></span> How to handle  “I’m not in love with you.”</td>
               </tr>
               <tr>
-                <td><span class="checkmark">•</span> How to reconnect and feel the love again</td>
-                <td><span class="checkmark">•</span> 7 Secrets to get over the past and forgive</td>
+                <td><span class="checkmark"></span> How to reconnect and feel the love again</td>
+                <td><span class="checkmark"></span> 7 Secrets to get over the past and forgive</td>
               </tr>
               <tr>
-                <td><span class="checkmark">•</span> How to stop a divorce or avoid a separation</td>
-                <td><span class="checkmark">•</span> How to survive an affair</td>
+                <td><span class="checkmark"></span> How to stop a divorce or avoid a separation</td>
+                <td><span class="checkmark"></span> How to survive an affair</td>
               </tr>
               <tr>
-                <td><span class="checkmark">•</span> How to have a breakthrough</td>
-                <td><span class="checkmark">•</span> How to get another chance</td>
+                <td><span class="checkmark"></span> How to have a breakthrough</td>
+                <td><span class="checkmark"></span> How to get another chance</td>
               </tr>
             </tbody>
           </table>
