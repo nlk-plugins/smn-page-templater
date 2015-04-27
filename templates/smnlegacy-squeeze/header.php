@@ -32,7 +32,7 @@
 
 	<?php if(function_exists('tha_head_bottom')) tha_head_bottom(); ?>
 
-	<?php //wp_head(); ?>
+	<?php wp_head(); ?>
 
 </head>
 
