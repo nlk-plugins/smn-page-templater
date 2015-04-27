@@ -4,11 +4,11 @@
  *
  */
 ?><!DOCTYPE html>
-<?php tha_html_before(); ?>
+<?php if( function_exists('tha_html_before') ) tha_html_before(); ?>
 <html <?php language_attributes(); ?>>
 <head>
 
-	<?php tha_head_top(); ?>
+	<?php if(function_exists('tha_head_top')) tha_head_top(); ?>
 
 	<meta charset="<?php bloginfo( 'charset' ); ?>">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,7 +47,6 @@
 
 <body <?php body_class(); ?>>
 
-	<?php tha_body_top(); ?>
 
 <div id="page" class="fix">
 	<div id="wrapper" class="fix">
