@@ -1,4 +1,4 @@
-# smn-page-templater
+# SMN Page Templater
 ###Page Templater plugin to add legacy pages to SMN
 
 Based on HarriBellThomas's https://github.com/wpexplorer/page-templater
